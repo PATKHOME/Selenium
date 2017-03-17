@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Product Suite" parallel="tests">
+
+
+
+<test name="Filter Mobile Test">
+    <classes>
+        <class name="com.qtpselenium.core.hybrid.product.FilterMobileTest" ></class>  
+    </classes>
+</test>
+
+<test name="Search and Buy Item Test Test">
+    <classes>
+        <class name="com.qtpselenium.core.hybrid.product.SearchAndBuyItemTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

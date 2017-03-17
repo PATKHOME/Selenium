@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Session Suite" parallel="tests">
+
+
+<test name="Login Test">
+    <classes>
+        <class name="com.qtpselenium.core.hybrid.sessionsuite.LoginTest" ></class>  
+    </classes>
+</test>
+
+
+<test name="Change Password Test">
+    <classes>
+        <class name="com.qtpselenium.core.hybrid.sessionsuite.ChangePasswordTest" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
+

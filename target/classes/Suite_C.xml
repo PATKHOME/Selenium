@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite C" parallel="tests">
+
+<test name="GMail Login Test">
+    <classes>
+        <class name="com.qtpselenium.core.hybrid.testcases.GmailLogin" ></class>  
+    </classes>
+</test>
+
+</suite>
+

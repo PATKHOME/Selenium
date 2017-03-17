@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Session Suite]" parallel="tests">
+  <test name="Change Password Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.core.hybrid.sessionsuite.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.hybrid.sessionsuite.LoginTest -->
+      <class name="com.qtpselenium.core.hybrid.sessionsuite.ChangePasswordTest">
+        <methods>
+          <include name="init"/>
+          <include name="changePasswordTest" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.hybrid.sessionsuite.ChangePasswordTest -->
+    </classes>
+  </test> <!-- Change Password Test(failed) -->
+  <test name="Login Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.core.hybrid.sessionsuite.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="loginTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.hybrid.sessionsuite.LoginTest -->
+      <class name="com.qtpselenium.core.hybrid.sessionsuite.ChangePasswordTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.hybrid.sessionsuite.ChangePasswordTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Session Suite] -->

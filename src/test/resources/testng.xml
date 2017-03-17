@@ -1,0 +1,10 @@
+<suite name="My suite" >
+
+  <suite-files>
+      
+     <suite-file path="./Suite_C.xml" />
+     <suite-file path="./SessionSuite.xml" />
+     <suite-file path="./ProductSuite.xml" /> 
+   
+  </suite-files>
+</suite>
